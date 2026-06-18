@@ -15,6 +15,7 @@
       "supportsTablet": true
     },
     "android": {
+      "package": "com.samar09.counselingapp",
       "adaptiveIcon": {
         "foregroundImage": "./assets/Avatar.png",
         "backgroundColor": "#FAF7EE"
@@ -25,6 +26,16 @@
     },
     "plugins": [
       "expo-font"
-    ]
+    ],
+    "extra": {
+      "eas": {
+        "projectId": "d2c58d08-b3c1-4733-ae7c-922eabd2c9c4"
+      }
+    },
+    "owner": "samar09",
+    "runtimeVersion": "exposdk:54.0.0",
+    "updates": {
+      "url": "https://u.expo.dev/d2c58d08-b3c1-4733-ae7c-922eabd2c9c4"
+    }
   }
 }
