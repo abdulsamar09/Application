@@ -1,7 +1,7 @@
 import axios from 'axios';
 
-// Backend port is 5000, using local IP so mobile device can connect
-const API_URL = 'http://192.168.18.52:5000';
+// Backend URL on Railway
+const API_URL = 'https://application-production-f6c4.up.railway.app';
 
 const api = axios.create({
   baseURL: API_URL,
