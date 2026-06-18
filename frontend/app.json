@@ -1,5 +1,30 @@
 {
-  "plugins": [
-    "expo-font"
-  ]
+  "expo": {
+    "name": "Counseling App",
+    "slug": "counseling-app-frontend",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/Avatar.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/Rectangle 36.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#FAF7EE"
+    },
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/Avatar.png",
+        "backgroundColor": "#FAF7EE"
+      }
+    },
+    "web": {
+      "favicon": "./assets/Avatar.png"
+    },
+    "plugins": [
+      "expo-font"
+    ]
+  }
 }
