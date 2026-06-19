@@ -4,7 +4,7 @@
     "slug": "counseling-app-frontend",
     "version": "1.0.0",
     "orientation": "portrait",
-    "icon": "./assets/Homescrenlogo.png",
+    "icon": "./assets/faciconmobileapp.png",
     "userInterfaceStyle": "light",
     "splash": {
       "image": "./assets/Rectangle 36.png",
@@ -17,12 +17,12 @@
     "android": {
       "package": "com.samar09.counselingapp",
       "adaptiveIcon": {
-        "foregroundImage": "./assets/Homescrenlogo.png",
+        "foregroundImage": "./assets/faciconmobileapp.png",
         "backgroundColor": "#FAF7EE"
       }
     },
     "web": {
-      "favicon": "./assets/Homescrenlogo.png"
+      "favicon": "./assets/faciconmobileapp.png"
     },
     "plugins": [
       "expo-font"
