@@ -83,7 +83,7 @@ export default function SignupScreen({ navigation }) {
         {/* Logo */}
         <View style={styles.logoContainer}>
           <Image
-            source={require('../../assets/Group 34710.png')}
+            source={require('../../assets/loginsingupscrenlogo.png')}
             style={styles.logoImage}
             resizeMode="contain"
           />

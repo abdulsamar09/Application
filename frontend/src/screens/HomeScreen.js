@@ -241,9 +241,9 @@ export default function HomeScreen({ navigation }) {
             </View>
             <View style={styles.heroIllustrationContainer}>
               <Image
-                source={require('../../assets/Group 34710.png')}
+                source={require('../../assets/Homescrenlogo.png')}
                 style={styles.heroIllustrationImage}
-                resizeMode="cover"
+                resizeMode="contain"
               />
             </View>
           </View>
@@ -521,13 +521,11 @@ const styles = StyleSheet.create({
   heroIllustrationContainer: {
     width: 95,
     height: 95,
-    overflow: 'hidden', // Crops out bottom 'INTERNAL COUNSELING UNIT' text to match 1st image mockup
     alignSelf: 'center',
   },
   heroIllustrationImage: {
     width: 95,
-    height: 135,
-    marginTop: -3,
+    height: 95,
   },
   contentPanel: {
     backgroundColor: '#FFFFFF',
